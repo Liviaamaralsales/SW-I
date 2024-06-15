@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="calculadora">
+        <div class="botoes">
+            <div>
+                <input type="text" id="valor">
+            </div>
+
+            <div>
+                <button id="1" onclick="num('1')">1</button>
+                <button id="2" onclick="num('2')">2</button>
+                <button id="3" onclick="num('3')">3</button>
+                <button id="4" onclick="num('4')">4</button>
+                <button id="soma" onclick="num('=')">+</button>
+            </div>
+
+            <div>
+                <button id="5" onclick="num('5')">5</button>
+                <button id="6" onclick="num('6')">6</button>
+                <button id="7" onclick="num('7')">7</button>
+                <button id="8" onclick="num('8')">8</button>
+                <button id="sub" onclick="num('-')">-</button>
+            </div>
+
+            <div>
+                <button id="9" onclick="num('9')">9</button>
+                <button id="0" onclick="num('0')">0</button>
+                <button id="virgula" onclick="num(',')">,</button>
+                <button id="limpar" onclick="num('C')">C</button>
+                <button id="multi" onclick="num('*')">*</button>
+            </div>
+
+            <div>
+                <button id="seta" onclick="num('<-')">(-</button>
+                <button id="porcentagem" onclick="num('%')">%</button>
+                <button id="limpar-tudo" onclick="num('CE')">CE</button>
+                <button id="igual" onclick="num('=')">=</button>
+                <button id="divisao" onclick="num('/')">/</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="code.s"></script>
+</body>
+</html>
